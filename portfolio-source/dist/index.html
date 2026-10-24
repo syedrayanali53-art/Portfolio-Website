@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0c0c">
+  <meta name="description" content="Syed Rayan Ali — Business Analytics & Information Systems student at George Mason University. Explore projects in data, systems, and process improvement.">
+  <title>Syed Rayan Ali — Analytics & Systems</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/doto.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="wordmark" href="#home" aria-label="Syed Rayan Ali, home">SRA<span>●</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-resume" href="#resume">Résumé <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero section container" aria-labelledby="hero-name">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <h1 id="hero-name" class="dot-type">SYED<br>RAYAN ALI<span class="blue">.</span></h1>
+          <p class="hero-title" data-content="title"></p>
+          <p class="hero-intro" data-content="intro"></p>
+          <div class="hero-actions"><a class="button primary" href="#projects">View projects <span aria-hidden="true">↗</span></a><a class="button secondary resume-download" download>Download résumé <span aria-hidden="true">↓</span></a></div>
+        </div>
+        <aside class="identity-card" aria-label="Student profile">
+          <img class="portrait-art" src="assets/portrait-silhouette.svg" alt="Dot-matrix silhouette representing Rayan">
+          <div class="identity-caption"><span class="dot-type">CONNECTING<br>THE DOTS.</span></div>
+          <div class="identity-foot"><span data-content="school"></span><span class="blue" aria-hidden="true">↗</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section container" aria-labelledby="about-title">
+      <div class="section-heading reveal"><h2 id="about-title" class="dot-type">Behind the data.</h2></div>
+      <div class="about-grid">
+        <article class="bio-tile tile reveal"><div class="tile-label mono">HELLO, I’M RAYAN. <span aria-hidden="true">↗</span></div><h3>Analytical by nature.<br>Creative by choice.</h3><p data-content="bio"></p><div class="interest-list" id="interests"></div><div class="personal-note"><span aria-hidden="true">⚽</span><p data-content="personal"></p></div></article>
+        <div class="education-tile tile reveal"><div class="tile-label mono">EDUCATION <span class="blue" aria-hidden="true">✳</span></div><h3 data-content="school"></h3><div class="degree-list" id="education-list"></div></div>
+      </div>
+      <div class="toolkit-header mono"><span>THE TOOLKIT</span><span class="muted" data-content="skillsNote"></span></div>
+      <div class="skills-grid" id="skills"></div>
+    </section>
+
+    <section id="projects" class="section projects-section container" aria-labelledby="projects-title">
+      <div class="section-heading reveal"><h2 id="projects-title" class="dot-type">A few cards to play.</h2></div>
+      <div class="project-grid" id="project-grid"></div>
+      <p class="project-note mono">SELECT A CARD TO EXPLORE</p>
+    </section>
+
+    <section id="experience" class="section container" aria-labelledby="experience-title">
+      <div class="section-heading reveal"><h2 id="experience-title" class="dot-type">Learning by doing.</h2></div>
+      <div id="experience-list" class="experience-list"></div>
+    </section>
+
+    <section id="resume" class="section container" aria-labelledby="resume-title">
+      <div class="resume-panel tile reveal"><div class="resume-icon dot-type" aria-hidden="true">↙</div><div class="resume-copy"><h2 id="resume-title" class="dot-type">Take it with you.</h2><p data-content="resume.note"></p></div><div class="resume-actions"><a class="button primary resume-download" download>Download résumé <span aria-hidden="true">↓</span></a><a class="text-link resume-view" target="_blank" rel="noopener">View PDF <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section id="contact" class="section container contact-section" aria-labelledby="contact-title">
+      <div class="contact-heading reveal"><h2 id="contact-title" class="dot-type">Let’s connect<span class="blue">.</span></h2><p data-content="contactIntro"></p></div>
+      <div id="contact-links" class="contact-links"></div>
+      <footer><a class="wordmark" href="#home" aria-label="Back to top">SRA<span>●</span></a><p class="mono muted" data-content="footer"></p><a class="mono" href="#home">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+  <dialog id="project-dialog" aria-labelledby="project-dialog-title"><div class="project-shell"><div class="flip-inner"><div class="card-face modal-back" aria-hidden="true"></div><article class="card-face detail-front"><button class="close-button" aria-label="Close project" autofocus>✕</button><div class="detail-scroll" id="project-detail"></div></article></div></div></dialog>
+  <dialog id="image-dialog" aria-labelledby="image-caption"><button class="close-button" aria-label="Close enlarged screenshot">✕</button><figure><img id="enlarged-image" alt=""><figcaption id="image-caption"></figcaption></figure></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Please enable JavaScript to view this portfolio’s content and project cards.</div></noscript>
+</body>
+</html>
