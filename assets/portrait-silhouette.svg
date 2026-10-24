@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250" fill="none">
+  <defs>
+    <pattern id="background" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r=".7" fill="#f4f4ef" opacity=".12"/></pattern>
+    <pattern id="portrait" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.8" fill="#f4f4ef"/></pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0h300v250H0z"/>
+  <path fill="url(#portrait)" d="M50 241c3-23 10-43 28-52l42-19 5-21c-10-8-16-20-18-34-7-1-10-9-9-16 0-5 3-8 6-8-4-11-4-25 1-39 5-18 17-28 32-32 12-4 23-3 33 1 10-2 20 3 26 12 12 17 10 38 5 58 4-1 7 3 7 8 0 8-3 15-10 17-2 14-8 25-18 33l5 21 39 18c19 10 26 30 29 53Z"/>
+  <path stroke="#131313" stroke-width="3" d="m121 171 29 26 33-26M150 197v44"/>
+  <path fill="#2357f5" d="M242 28h3v15h-3zM236 34h15v3h-15z"/>
+</svg>
