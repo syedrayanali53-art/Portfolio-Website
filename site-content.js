@@ -29,7 +29,7 @@ window.PORTFOLIO = {
       result: 'Brings scheduling, assignment checks, and reporting into one interactive workspace.',
       resultNote: 'Portfolio demo with fictional records and browser-local storage. Assignments are selected by the dispatcher and validated by the engine.',
       metric: '39', metricLabel: 'FICTIONAL JOBS ACROSS 3 DAYS',
-      link: 'https://github.com/syedrayanali53-art/Dispatch-Engine-Board-', linkLabel: 'View code & run instructions',
+      link: 'https://syedrayanali53-art.github.io/Dispatch-Engine-Board-/', linkLabel: 'View live demo',
       screenshots: [
         { src: 'assets/projects/dispatch-board.svg', alt: 'Illustrative placeholder for the Dispatch Board scheduling interface', caption: 'Scheduling workspace · placeholder' },
         { src: 'assets/projects/dispatch-workload.svg', alt: 'Illustrative placeholder for Dispatch Board workload visualization', caption: 'Workload overview · placeholder' }
