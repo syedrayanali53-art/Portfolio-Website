@@ -31,8 +31,9 @@ window.PORTFOLIO = {
       metric: '39', metricLabel: 'FICTIONAL JOBS ACROSS 3 DAYS',
       link: 'https://syedrayanali53-art.github.io/Dispatch-Engine-Board-/', linkLabel: 'View live demo',
       screenshots: [
-        { src: 'assets/projects/dispatch-board.svg', alt: 'Illustrative placeholder for the Dispatch Board scheduling interface', caption: 'Scheduling workspace · placeholder' },
-        { src: 'assets/projects/dispatch-workload.svg', alt: 'Illustrative placeholder for Dispatch Board workload visualization', caption: 'Workload overview · placeholder' }
+        { src: 'assets/projects/dispatch-overview.png', alt: 'Relay Dispatch Board overview with daily job totals, fleet commitments, and planning filters', caption: 'Daily operations overview' },
+        { src: 'assets/projects/dispatch-board.png', alt: 'Dispatch jobs organized into To plan, Ready to go, In progress, and Completed columns', caption: 'Job scheduling board' },
+        { src: 'assets/projects/dispatch-assignment.png', alt: 'Crew and vehicle assignment panel with truck, driver, foreman, and staffing selections', caption: 'Crew and vehicle assignment' }
       ]
     },
     {
