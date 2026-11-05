@@ -21,15 +21,15 @@ window.PORTFOLIO = {
   ],
   projects: [
     {
-      id: 'dispatch', number: '01', suit: '♠', category: 'SYSTEMS / AUTOMATION', name: 'Dispatch Board',
-      brief: 'Less scheduling friction. More time to move. A smarter workspace for dispatchers.',
-      problem: 'Dispatchers need to assign jobs, balance workloads, and catch scheduling conflicts without losing time to manual coordination.',
-      built: 'An automated scheduling board with a drag-and-drop interface, conflict detection, and workload visualization.',
-      tools: ['HTML5', 'CSS3', 'JSON', 'Supabase'],
-      result: '40% less time spent scheduling.',
-      resultNote: 'Project outcome supplied by Syed. Add the measurement method and supporting context here.',
-      metric: '40%', metricLabel: 'LESS SCHEDULING TIME',
-      link: '', linkLabel: 'View live project',
+      id: 'dispatch', number: '01', suit: '♠', category: 'SYSTEMS / AUTOMATION', name: 'Relay Dispatch Board',
+      brief: 'A dispatch planning and reporting workspace for moving operations.',
+      problem: 'Dispatchers must coordinate jobs, crews, and vehicles while checking training, availability, load capacity, and staffing requirements.',
+      built: 'A browser-based board with drag-and-drop scheduling, rules-based assignment validation, planning queues, operations reports, CSV exports, and undo/redo.',
+      tools: ['HTML5', 'CSS3', 'JavaScript', 'Local storage'],
+      result: 'Brings scheduling, assignment checks, and reporting into one interactive workspace.',
+      resultNote: 'Portfolio demo with fictional records and browser-local storage. Assignments are selected by the dispatcher and validated by the engine.',
+      metric: '39', metricLabel: 'FICTIONAL JOBS ACROSS 3 DAYS',
+      link: 'https://github.com/syedrayanali53-art/Dispatch-Engine-Board-', linkLabel: 'View code & run instructions',
       screenshots: [
         { src: 'assets/projects/dispatch-board.svg', alt: 'Illustrative placeholder for the Dispatch Board scheduling interface', caption: 'Scheduling workspace · placeholder' },
         { src: 'assets/projects/dispatch-workload.svg', alt: 'Illustrative placeholder for Dispatch Board workload visualization', caption: 'Workload overview · placeholder' }
