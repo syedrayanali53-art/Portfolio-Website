@@ -1,0 +1,26 @@
+:root {
+  color-scheme: light;
+  --paper: oklch(97.5% .005 90);
+  --paper-2: oklch(93.5% .008 90);
+  --ink: oklch(20% .018 266);
+  --ink-2: oklch(30% .02 266);
+  --muted: oklch(46% .016 266);
+  --rule: oklch(81% .01 266);
+  --blue: #2357f5;
+  --field: oklch(42% .19 266);
+  --field-ink: oklch(97.5% .005 90);
+  --focus: oklch(46% .2 266);
+  --veil: oklch(18% .018 266 / .78);
+  --clear: transparent;
+  --font-display: "Radio Canada Big", Inter, Arial, sans-serif;
+  --font-body: Inter, Arial, sans-serif;
+  --font-wordmark: Doto, monospace;
+  --container: 1440px;
+  --gutter: 64px;
+  --gap: 32px;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px;
+  --s6: 24px; --s8: 32px; --s10: 40px; --s12: 48px;
+  --s16: 64px; --s20: 80px; --s24: 96px; --s30: 120px;
+  --short: 180ms;
+  --ease: cubic-bezier(.16,1,.3,1);
+}
