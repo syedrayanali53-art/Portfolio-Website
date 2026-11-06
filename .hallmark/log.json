@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-06",
+    "mode": "redesign",
+    "depth": "full",
+    "scope": "page",
+    "shape": "Marquee Hero",
+    "theme": "Grid (brand adapted)",
+    "axes": "light/grotesk-sans/cool",
+    "hero": "Stage",
+    "nav": "edge-aligned",
+    "footer": "letter close",
+    "imagery": "existing dispatch screenshots; preserved project galleries",
+    "photos": [],
+    "entry": "index.html",
+    "fingerprint": [
+      "asymmetric hero",
+      "featured work then project summaries",
+      "whitespace and paper changes",
+      "typographic secondary links",
+      "natural product captures",
+      "static motion"
+    ],
+    "sections": [
+      "Introduction",
+      "Selected projects",
+      "About and tools",
+      "Experience",
+      "Resume",
+      "Contact"
+    ],
+    "signature": "Real dispatch workspace beside Rayan's name",
+    "waived": [],
+    "prompt": "Use Hallmark to improve portfolio; editorial redesign chosen by user",
+    "status": "draft; render and final Hallmark sweep pending",
+    "review": "Independent static review: no blocker; hover scope and font preload suggestions addressed",
+    "verified": [
+      "JavaScript parses",
+      "All 24 original IDs retained",
+      "All original static hrefs retained",
+      "All static asset references resolve in source tree",
+      "No color literals in main CSS; shared tokens",
+      "Focus-visible and reduced-motion rules present"
+    ]
+  }
+]

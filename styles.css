@@ -71,7 +71,7 @@ nav a:hover, nav a.active, .nav-resume:hover, .text-link:hover { color: var(--bl
 .project-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--gap); }
 .project-card { display: flex; min-width: 0; min-height: 300px; gap: var(--gap); text-align: left; background: var(--paper-2); color: var(--ink); border: 0; padding: var(--s10); position: relative; }
 .project-card:first-child { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr); background: var(--field); color: var(--field-ink); padding: var(--s12); --focus: var(--field-ink); min-height: 480px; align-items: center; }
-.project-card:hover .card-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
+button.project-card:hover .card-name, a.project-card:hover .card-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
 .card-copy { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
 .card-name { font: 700 clamp(32px,3.7vw,56px)/1.05 var(--font-display); letter-spacing: -.035em; overflow-wrap: break-word; text-wrap: balance; }
 .card-category { margin-top: var(--s4); font-size: 14px; }
